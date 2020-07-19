@@ -33,3 +33,9 @@ Network tools:
     $ sudo apt install net-tools
 
     $ sudo apt install openssh-server
+
+
+Change UUID of VM
+-----------------
+
+  % VBoxManage internalcommands sethduuid 'salt-minion.vdi'
